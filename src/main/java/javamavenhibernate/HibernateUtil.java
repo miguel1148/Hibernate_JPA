@@ -26,8 +26,8 @@ public class HibernateUtil {
 		}
 	}
 	
+	
 	public static EntityManager getEntityManager() {
-		
 		return factory.createEntityManager(); /*Responsavel por prover a parte de persistencia de dados  */
 	}
 	

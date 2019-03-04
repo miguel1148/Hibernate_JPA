@@ -8,6 +8,10 @@
 	<!-- See HibernateUtil factory = Persistence.createEntityManagerFactory(""); -->
 	<persistence-unit name="java-maven-hibernate">
 	
+
+          
+	<class>model.UsuarioPessoa</class>
+	
 	<properties>
 		<!-- DADOS DE CONEXÃO COM O BANCO -->
 		<property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>	
@@ -17,8 +21,10 @@
 		<property name="hibernate.connection.username" value="postgres"/>
 		<property name="hibernate.connection.password" value="admin"/>
 		
-		<!-- Atualização automatica de tabelas -->
-		<property name="hibernate.hbm2dll.auto" value="update"/>
+		<property name="hibernate.show_sql" value="true" />
+        <property name="hibernate.format_sql" value="false" />
+		
+		<property name="hibernate.hbm2ddl.auto" value="update" />
 		
 	</properties>
 	
