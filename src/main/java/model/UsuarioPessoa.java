@@ -31,8 +31,8 @@ public class UsuarioPessoa {
 	@Column(name="senha")
 	private String senha;
 	
-	
 	private int idade;
+	
 	public int getIdade() {
 		return idade;
 	}

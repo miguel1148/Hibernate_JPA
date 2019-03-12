@@ -17,12 +17,13 @@ public class HibernateUtil {
 	private static void init() {
 		
 		try {
-			//Go to [ persistence.xml ]
+			//See also [ persistence.xml ]
 			if(factory == null) {
 				factory = Persistence.createEntityManagerFactory("java-maven-hibernate");
 			}	
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
+		//	System.out.println("ERROR!!!");
 		}
 	}
 	

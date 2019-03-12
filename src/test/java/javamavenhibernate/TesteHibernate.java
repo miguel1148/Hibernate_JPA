@@ -6,7 +6,7 @@ import dao.DaoGeneric;
 import model.UsuarioPessoa;
 
 public class TesteHibernate {
-	
+	/*
 	@Test
 	public void testeHibernateUtil() {
 //		HibernateUtil.getEntityManager(); Criar tabela		
@@ -15,11 +15,11 @@ public class TesteHibernate {
 		DaoGeneric<UsuarioPessoa> dao = new DaoGeneric<UsuarioPessoa>();
 		UsuarioPessoa pessoa = new UsuarioPessoa();
 		
-		pessoa.setEmail("andreza_lima@gmail.com");
-		pessoa.setLogin("teste2");
+		pessoa.setEmail("andreza#@gmail.com");
+		pessoa.setLogin("URI");
 		pessoa.setNome("Andreza");
 		pessoa.setSobrenome("Lima");
-		pessoa.setSenha("987654321");
+		pessoa.setSenha("76860594bc");
 		pessoa.setIdade(27);
 		
 		dao.salvar(pessoa);
@@ -27,5 +27,5 @@ public class TesteHibernate {
 
 		
 	}
-
+*/
 }
